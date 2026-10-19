@@ -26,3 +26,4 @@ def calcular_moda(lista):
 
 notas_moda = [12, 15, 15, 18, 10, 15, 11]
 print("La moda de las notas es:", calcular_moda(notas_moda))
+print("Para ver si el usario a cambiado")
