@@ -5,6 +5,9 @@ print("Nota maxima:", max(notas))
 print("Nota minima:", min(notas))
 print("Cantidad de notas:", len(notas))
 
-from statistics import median
+from statistics import median, mode, stdev
 
 print("Mediana de notas:", median(notas))
+
+print("Moda de notas:", mode(notas))
+print("Desviación estándar:", round(stdev(notas), 2))
