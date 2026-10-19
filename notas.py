@@ -12,7 +12,7 @@ print("Mediana de notas:", median(notas))
 print("Moda de notas:", mode(notas))
 print("Desviación estándar:", round(stdev(notas), 2))
 
-# Calculo de la moda - Sergio Mendoza
+# Calculo moda- Sergio Mendoza
 def calcular_moda(lista):
     """Devuelve el valor que mas se repite en la lista."""
     moda = lista[0]
@@ -27,3 +27,5 @@ def calcular_moda(lista):
 notas_moda = [12, 15, 15, 18, 10, 15, 11]
 print("La moda de las notas es:", calcular_moda(notas_moda))
 print("Para ver si el usario a cambiado")
+print("Para ver si el usario a cambiado")
+print("Prueba final de usario")
