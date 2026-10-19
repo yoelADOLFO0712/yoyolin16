@@ -11,3 +11,5 @@ print("Mediana de notas:", median(notas))
 
 print("Moda de notas:", mode(notas))
 print("Desviación estándar:", round(stdev(notas), 2))
+
+print("Para ver si el usario a cambiado")
